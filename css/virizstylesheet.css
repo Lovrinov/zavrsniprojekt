@@ -111,11 +111,13 @@ a:visited {
 .bijelinaslov {
     color: #fff;
     font-family: Roboto;
+    font-size: 25px;
 }
 
 .crninaslov {
     color: #333333;
     font-family: Roboto;
+    font-size: 25px;
 }
 .bijelitekst {
     color: #fff;
