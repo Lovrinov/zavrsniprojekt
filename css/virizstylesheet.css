@@ -1,0 +1,272 @@
+
+#dobrodosli {
+    background-color: #333333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navlinks {
+    font-family: Roboto;
+    transition: all .2s ease-in-out;
+    color: #fff;
+}
+
+#navlinks:hover {
+    font-family: Roboto;
+    color: #fff;
+    transform: scale(1.1);
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#navlinks:visited {
+    color: #fff;
+}
+
+#navibar {
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #333333;
+    border-radius: 0;
+    margin-top: -60px;
+}
+
+#oprojektu1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footertext {
+    font-family: Roboto;
+    margin-bottom:0;
+}
+
+
+
+#podaciverber {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #333333;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow-x: auto;
+}
+
+
+
+a:visited {
+    text-decoration-color: #fff;
+}
+
+.navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.form-control {
+    border-width: 0;
+}
+
+.fa-download {
+    color: #333333;
+}
+
+.btn-success {
+    color: #333333;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-success:hover {
+    color: #333333;
+    background-color: #fff;
+    border: none;
+}
+
+
+.bijelinaslov {
+    color: #fff;
+    font-family: Roboto;
+}
+
+#profileimage {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.navbarlink {
+    color: #333333;
+}
+
+.bijelinaslov {
+    color: #fff;
+    font-family: Roboto;
+}
+
+.crninaslov {
+    color: #333333;
+    font-family: Roboto;
+}
+.bijelitekst {
+    color: #fff;
+    font-family: Roboto;
+}
+.crnitekst {
+    color: #333333;
+    font-family: Roboto;
+}
+
+.listaverber {
+    font-size: 18px;
+    color: #333333;
+}
+
+
+
+#footer {
+    background-color: #333333;
+    height: 50px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    border-radius: 0;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    padding-top: 60px;
+}
+
+html,body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px;
+/* the bottom margin is the negative value of the footer's height */
+}
+
+.footer,.push {
+    height: 70px;
+/* .push must be the same height as .footer */
+}
+
+#foot-text {
+    color: #fff;
+}
+
+#iconbar {
+    background-color: #333333;
+}
+
+@media (max-width: 767px) {
+    .crvenitekst,.bijelitekst {
+        font-size: 17px;
+    }
+
+    .naslovi {
+        font-size: 25px;
+    }
+
+    .sporocila > a {
+        font-size: 17px;
+    }
+
+    #navlinks:hover {
+        font-family: Roboto;
+        color: #fff;
+        transform: none;
+    }
+
+    #profileimage {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    #dobrodosli {
+        background-color: #333333;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #uvod {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #paragraf {
+        margin-left: 100px;
+    }
+
+    #oprojektu1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #oprojektu2 {
+        background-color: #333333;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    }
+
+    #porocilaprojekta {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #kontakt {
+        background-color: #333333;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.clicker:link {
+    color: #333333;
+    display: block;
+    font-size: 19px;
+}
+
+.clicker:hover {
+    color: #333333;
+    display: block;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.clicker:visited {
+    color: #333333;
+    display: block;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.clicker:active {
+    color: #333333;
+    display: block;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+/*jQuery
+
+.click-nav .no-js ul {display:none;}
+.click-nav .no-js:hover ul {display:block;}
+*/
